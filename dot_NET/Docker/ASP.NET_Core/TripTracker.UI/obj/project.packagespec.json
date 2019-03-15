@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.UI/TripTracker.UI.csproj",
+    "projectName": "TripTracker.UI",
+    "projectPath": "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.UI/TripTracker.UI.csproj",
+    "outputPath": "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.UI/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.BackService/TripTracker.BackService.csproj": {
+            "projectPath": "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.BackService/TripTracker.BackService.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Datadog.Trace.ClrProfiler.Managed": {
+          "target": "Package",
+          "version": "[0.7.1-beta, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.5, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.2, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

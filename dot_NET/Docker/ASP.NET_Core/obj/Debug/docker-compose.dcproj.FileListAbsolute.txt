@@ -1,0 +1,2 @@
+/Users/jay.dave/Downloads/TripTracker-master/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/jay.dave/Desktop/TripTracker-master/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache

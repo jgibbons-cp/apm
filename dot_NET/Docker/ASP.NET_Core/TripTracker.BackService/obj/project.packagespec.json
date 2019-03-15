@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.BackService/TripTracker.BackService.csproj",
+    "projectName": "TripTracker.BackService",
+    "projectPath": "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.BackService/TripTracker.BackService.csproj",
+    "outputPath": "/Users/jay.dave/Desktop/Datadog Git Repo(s)/sandbox/ASP.NET_Core/TripTracker/TripTracker.BackService/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Datadog.Trace.ClrProfiler.Managed": {
+          "target": "Package",
+          "version": "[0.7.1-beta, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.5, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[1.1.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
